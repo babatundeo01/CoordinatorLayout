@@ -9,8 +9,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-class MyListViewAdapter extends ArrayAdapter<String> {
-
+public class MyListViewAdapter extends ArrayAdapter<String> {
     private final Activity activity;
     private final ArrayList<String> strArray;
     private TextView textView;
